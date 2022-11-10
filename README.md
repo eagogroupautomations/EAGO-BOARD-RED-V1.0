@@ -49,12 +49,13 @@ Select a preferred development environment and configure your setup as detailed 
 
    ### Arduino IDE ###
 Download and install Arduino IDE for your preferred platform by selecting an installable package from the [Arduino Software Downloads page](https://www.arduino.cc/en/software).
-Learn more about setting up Arduino Cores by following the Arduino Guide [Arduino Guide]((https://www.arduino.cc/en/guide/cores).
+Learn more about setting up Arduino Cores by following the Arduino Guide [Arduino Guide](https://www.arduino.cc/en/guide/cores).
 
  __Setting up STM32Duino Core (recommended)__.
 1. On Windows and Linux-based OS’es, to setup STM32Duino Core, launch the Arduino IDE and navigate to File > Preferences options on the Arduino IDE menu bar.
 2. In the Preferences window, paste the link https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json inside the Additional Boards Manager URLs input box and save it by clicking OK.
 On MacOS,the Preferences menu can be accessed by clicking on _Arduino > Preferences_ from the App menu.
-3. Under the _Tools_ option in the menu bar, Select Board and on the resulting palette window select Boards Manager....
+3. Under the _Tools_ option in the menu bar, Select Board and on the resulting palette window select _Boards Manager...._
+   For full instructions on using the "Boards Manager", see the [Getting Started page](https://github.com/stm32duino/wiki/wiki/Getting-Started).
+4. On the _Boards Manager options_, set filter to _Contributed_ and type _STM32 Cores_ in the search box. Then click on _Install_ .
 
-  
