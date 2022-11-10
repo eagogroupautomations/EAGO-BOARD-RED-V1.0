@@ -47,8 +47,13 @@ The Eago Developer Boards and Kits aim to provide an easy path for IoT newbies a
 The Eris Developer Board and Kit can be programmed using [Arduino IDE](https://www.arduino.cc/en/software) ,[PlatformIO](https://platformio.org/) or [SMT32Cube](https://www.st.com/en/development-tools/stm32cubeide.html).
 Select a preferred development environment and configure your setup as detailed below.
 
-
-
-
+   ### Arduino IDE ###
+Download and install Arduino IDE for your preferred platform by selecting an installable package from the [Arduino Software Downloads page](https://www.arduino.cc/en/software).
+Learn more about setting up Arduino Cores by following the Arduino Guide [Arduino Guide]((https://www.arduino.cc/en/guide/cores).
+Setting up STM32Duino Core (recommended)
+On Windows and Linux-based OS’es, to setup STM32Duino Core, launch the Arduino IDE and navigate to File > Preferences options on the Arduino IDE menu bar.
+In the Preferences window, paste the link https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json inside the Additional Boards Manager URLs input box and save it by clicking OK.
+On MacOS, the Preferences menu can be accessed by clicking on Arduino > Preferences from the App menu.
+Under the Tools option in the menu bar, Select Board and on the resulting palette window select Boards Manager....
 
   
