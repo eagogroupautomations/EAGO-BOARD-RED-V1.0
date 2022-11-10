@@ -34,6 +34,16 @@ At the core is 72MHz ARM Cortex M3 with 64Kb of flash memory. The board ships wi
 * Direct WiFi Support (P2P)
 * Built-in Tensilica L106 ultra-low power 32-bit microprocessor, supporting 80MHz and
   160MHz at the main frequency, supporting RTOS
+* Built channel 1 10 bit high precision ADC
+* Peripheral interface HSPI, UART, I2C, I2S, IR Remote Control, PWM, GPIO
+* Deep sleep keeps current at 10uA and shutdown current is less than 5uA
+* Wake up, connect and pass packets within 2 mS
+* Standby power consumption is less than 1.0mW (DTIM3)
+
+       ## Eago group,Eago Developers’ Kit and Developers’ Board ##
+The Eago Developer Boards and Kits aim to provide an easy path for IoT newbies and hobbyists to get started with easy tests for hardware development , firmware development , training and data publishing and subscription using GPRS and wifi chip on board.
+
+
 
 
 
