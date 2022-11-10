@@ -54,6 +54,6 @@ Learn more about setting up Arduino Cores by following the Arduino Guide [Arduin
 1. On Windows and Linux-based OS’es, to setup STM32Duino Core, launch the Arduino IDE and navigate to File > Preferences options on the Arduino IDE menu bar.
 2. In the Preferences window, paste the link https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json inside the Additional Boards Manager URLs input box and save it by clicking OK.
 On MacOS,the Preferences menu can be accessed by clicking on Arduino > Preferences from the App menu.
-3. Under the _ Tools _ option in the menu bar, Select Board and on the resulting palette window select Boards Manager....
+3. Under the _Tools_ option in the menu bar, Select Board and on the resulting palette window select Boards Manager....
 
   
