@@ -63,7 +63,9 @@ On MacOS,the Preferences menu can be accessed by clicking on _Arduino > Preferen
 __PlatformIO__
 1. Install PlatformIO as detailed in the [installation options page](https://docs.platformio.org/en/latest/core/installation.html#installation-methods).
 2. Install STM32 platform support by running the following command from your terminal.
-    'pio platform install stm32'
+
+
+    `pio platform install stm32`
 
 
 https://docs.platformio.org/en/latest/core/installation.html#installation-methods
