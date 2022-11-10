@@ -81,10 +81,19 @@ __STM32Cube IDE__
 2. Using Arduino IDE, under the Tools option in the menu bar, select Board > STM32 Board`s > Generic STM32F1 series then under Board part number select Generic F103C8 if you’re using STM32Duino.
 3. Under the same Tools menu, ensure that you have set the Upload method to STM32CubeProgrammer(Serial).
 Set the appropriate port to upload.
-Using STM32Flash
-Install STM32Flash for your OS of choice.
-Ensure that the location of the STM32Flash executable is available in your path variables.
-The arguments provided to the stm32flash utility are as follows:
+
+   ### Using STM32Flash ###
+1. Install [STM32Flash](https://sourceforge.net/p/stm32flash/wiki/Home/) for your OS of choice.
+2. Ensure that the location of the STM32Flash executable is available in your path variables.
+3. The arguments provided to the stm32flash utility are as follows:
+
+        ##stm32flash -b [int] -v -w [path] [port]
+        ##stm32flash -b [int] -v -w [path] [port]
+        # -b : baud rate > Should be 115200
+        # -v : verify write
+       # -w : write > requires path to binary file
+       # port : _ serial port where device is connected to _ 
+
 
 
 
