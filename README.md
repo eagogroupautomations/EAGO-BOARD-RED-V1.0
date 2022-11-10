@@ -1,8 +1,7 @@
 # EAGO-BOARD-RED-V1.0
-Documentation for Eago Board v1.0 red board
+## Documentation for Eago Board v1.0 red board##
+### EAGO EVALUATION BOARD
 Edited by Benson Muchemi
-EAGO EVALUATION BOARD
-
 DESCRIPTION
 The Eago development board contains a series of Microcontroller boards compatible with STM32Cube IDE and Arduino IDE.
 Also contains ESP microcontroller(ESP8285) that are on-board and compatible with arduino with pinout extension and enables wifi connectivity.
