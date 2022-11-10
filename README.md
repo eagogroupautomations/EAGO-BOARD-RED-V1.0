@@ -9,9 +9,9 @@ Eago V1 kits and boards ship with an STM32F103 Chip packaged in a manner that is
 The Eago V1 board has its shield compatible with the board.
 At the core is 72MHz ARM Cortex M3 with 64Kb of flash memory. The board ships with an inbuilt USB to Serial interface(cp2102) making it easy to program and SWD interface for easy debugging.
 
-Specifications
-     *  32-bit ARM Cortex M3 clocked at 72MHz 3.3v logic
-     . 64 Kb of flash memory
+Specification
+* 32-bit ARM Cortex M3 clocked at 72MHz 3.3v logic
+ *   64 Kb of flash memory
      . 20 Kb of SRAM
      . 72 MHz clock and 32kHz clock for RTC
      . 2 USART interfaces
