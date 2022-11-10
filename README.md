@@ -44,7 +44,7 @@ At the core is 72MHz ARM Cortex M3 with 64Kb of flash memory. The board ships wi
 The Eago Developer Boards and Kits aim to provide an easy path for IoT newbies and hobbyists to get started with easy tests for hardware development , firmware development , training and data publishing and subscription using GPRS and wifi chip on board.
 
    ### Getting Started ###
-The Eris Developer Board and Kit can be programmed using [Arduino IDE](https://www.arduino.cc/en/software) ,[PlatformIO](https://platformio.org/) or [SMT32Cube](https://www.st.com/en/development-tools/stm32cubeide.html).
+The Eago Developer Board and Kit can be programmed using [Arduino IDE](https://www.arduino.cc/en/software) ,[PlatformIO](https://platformio.org/) or [SMT32Cube](https://www.st.com/en/development-tools/stm32cubeide.html).
 Select a preferred development environment and configure your setup as detailed below.
 
    ### Arduino IDE ###
@@ -74,9 +74,22 @@ __STM32Cube IDE__
 4. On the accompanying container window on the right, select STM32F103C8.
 5. Proceed to configure the MCU as needed by clicking _Next >_ at the bottom of the pane.
 
+     ## Building and Uploading Code to Eago Dev Board/Dev Kit ##
+     
+     ### Using STM32CubeProgrammer (Arduino/PIO)###
+1. Download and install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) for your OS of choice.
+2. Using Arduino IDE, under the Tools option in the menu bar, select Board > STM32 Board`s > Generic STM32F1 series then under Board part number select Generic F103C8 if you’re using STM32Duino.
+3. Under the same Tools menu, ensure that you have set the Upload method to STM32CubeProgrammer(Serial).
+Set the appropriate port to upload.
+Using STM32Flash
+Install STM32Flash for your OS of choice.
+Ensure that the location of the STM32Flash executable is available in your path variables.
+The arguments provided to the stm32flash utility are as follows:
+
+
 
 
 [Arduino IDE](https://www.arduino.cc/en/software)
 https://www.st.com/en/development-tools/stm32cubeide.html
-
+https://www.st.com/en/development-tools/stm32cubeprog.html
 https://docs.platformio.org/en/latest/core/installation.html#installation-methods
