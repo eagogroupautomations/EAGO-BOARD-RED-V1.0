@@ -87,12 +87,38 @@ Set the appropriate port to upload.
 2. Ensure that the location of the STM32Flash executable is available in your path variables.
 3. The arguments provided to the stm32flash utility are as follows:
 
-        ##stm32flash -b [int] -v -w [path] [port]
-        ##stm32flash -b [int] -v -w [path] [port]
-        # -b : baud rate > Should be 115200
-        # -v : verify write
-       # -w : write > requires path to binary file
-       # port : _ serial port where device is connected to _ 
+        stm32flash -b [int] -v -w [path] [port]
+        stm32flash -b [int] -v -w [path] [port]
+        -b : baud rate > Should be 115200
+        -v : verify write
+        -w : write > requires path to binary file
+        port : serial port where device is connected to  
+ 
+ Learn more under usage[usage](https://sourceforge.net/p/stm32flash/wiki/Home/)
+ 
+   ## STM32Cube IDE ##
+   
+1. Build the binary (ensure that you have configured this properly by right-clicking on your project _Properties > C/C++ Build > Settings > MCU Post build outputs and select Convert to binary file (-O binary))_ .
+     * The command to upload the binary is
+ 
+           stm32flash -b 115200 -v -w <path-to-build-output-file>.bin  <port-example-COM4-or-/dev/cu.usbserial-AAAA733T>
+
+
+    ## PlatformIO ##
+* You can use STM32Flash for PlatformIO as well. See example below
+    * First build the binary
+    
+             pio run
+
+* Then upload to target board
+
+        stm32flash -b 115200 -v -w .pio/build/genericSTM32F103C8/firmware.bin  /dev/cu.usbserial-AAAA733T
+
+
+For PlatformIO you can also build and upload the binary by executing the following command in your terminal
+Build and upload (ensure that you have configured the port in platformio.ini)
+pio run --target=upload
+
 
 
 
