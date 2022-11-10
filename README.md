@@ -40,8 +40,11 @@ At the core is 72MHz ARM Cortex M3 with 64Kb of flash memory. The board ships wi
 * Wake up, connect and pass packets within 2 mS
 * Standby power consumption is less than 1.0mW (DTIM3)
 
-     ### Eago group,Eago Developers’ Kit and Developers’ Board ###
+     ## Eago group,Eago Developers’ Kit and Developers’ Board ##
 The Eago Developer Boards and Kits aim to provide an easy path for IoT newbies and hobbyists to get started with easy tests for hardware development , firmware development , training and data publishing and subscription using GPRS and wifi chip on board.
+     ### Getting Started ###
+The Eris Developer Board and Kit can be programmed using Arduino IDE [Arduino IDE]([http://www.google.fr/](https://www.arduino.cc/en/software) "Arduino IDE"), PlatformIO or SMT32Cube IDE.
+Select a preferred development environment and configure your setup as detailed below.
 
 
 
