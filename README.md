@@ -66,6 +66,17 @@ __PlatformIO__
 
 
     `pio platform install stm32`
+__STM32Cube IDE__
 
+1. Download and install STM32Cube IDE for your OS and platform of choice by selecting an installable package from the [downloads page](https://www.st.com/en/development-tools/stm32cubeide.html).
+2. Create a new project by selecting the  _File > New > STM32 Project_  options in the menu bar.
+3. Under the _MCU/MPU Selector tab_, type F103C8 under the Part Number input box.
+4. On the accompanying container window on the right, select STM32F103C8.
+5. Proceed to configure the MCU as needed by clicking _Next >_ at the bottom of the pane.
+
+
+
+[Arduino IDE](https://www.arduino.cc/en/software)
+https://www.st.com/en/development-tools/stm32cubeide.html
 
 https://docs.platformio.org/en/latest/core/installation.html#installation-methods
