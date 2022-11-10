@@ -11,16 +11,16 @@ At the core is 72MHz ARM Cortex M3 with 64Kb of flash memory. The board ships wi
 
 Specification
 * 32-bit ARM Cortex M3 clocked at 72MHz 3.3v logic
- *   64 Kb of flash memory
-     . 20 Kb of SRAM
-     . 72 MHz clock and 32kHz clock for RTC
-     . 2 USART interfaces
-     . 7-channel DMA
-     . 5-90V DC input voltage
-     On-board SIM Module with antenna
-     USB Support (MAX3421E)
-     On-board programming interface (CP2102)
-     SWD Interface
-     Wifi interface(esp8285) with antenna
+* 64 Kb of flash memory
+* 20 Kb of SRAM
+* 72 MHz clock and 32kHz clock for RTC
+* 2 USART interfaces
+* 7-channel DMA
+* 5-90V DC input voltage
+* On-board SIM Module with antenna
+* USB Support (MAX3421E)
+* On-board programming interface (CP2102)
+* SWD Interface
+* Wifi interface(esp8285) with antenna
   
   
