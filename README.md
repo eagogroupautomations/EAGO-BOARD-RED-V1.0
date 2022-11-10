@@ -64,7 +64,6 @@ __PlatformIO__
 1. Install PlatformIO as detailed in the [installation options page](https://docs.platformio.org/en/latest/core/installation.html#installation-methods).
 2. Install STM32 platform support by running the following command from your terminal.
 
-
     `pio platform install stm32`
 __STM32Cube IDE__
 
@@ -102,9 +101,9 @@ Set the appropriate port to upload.
      * The command to upload the binary is
  
            stm32flash -b 115200 -v -w <path-to-build-output-file>.bin  <port-example-COM4-or-/dev/cu.usbserial-AAAA733T>
-
-
+           
     ## PlatformIO ##
+    
 * You can use STM32Flash for PlatformIO as well. See example below
     * First build the binary
     
@@ -112,12 +111,12 @@ Set the appropriate port to upload.
 
 * Then upload to target board
 
-        stm32flash -b 115200 -v -w .pio/build/genericSTM32F103C8/firmware.bin  /dev/cu.usbserial-AAAA733T
+      stm32flash -b 115200 -v -w .pio/build/genericSTM32F103C8/firmware.bin  /dev/cu.usbserial-AAAA733T
 
+* For PlatformIO you can also build and upload the binary by executing the following command in your terminal
+* Build and upload (ensure that you have configured the port in platformio.ini)
 
-For PlatformIO you can also build and upload the binary by executing the following command in your terminal
-Build and upload (ensure that you have configured the port in platformio.ini)
-pio run --target=upload
+      pio run --target=upload
 
 
 
