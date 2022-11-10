@@ -58,4 +58,12 @@ On MacOS,the Preferences menu can be accessed by clicking on _Arduino > Preferen
 3. Under the _Tools_ option in the menu bar, Select Board and on the resulting palette window select _Boards Manager...._
    For full instructions on using the "Boards Manager", see the [Getting Started page](https://github.com/stm32duino/wiki/wiki/Getting-Started).
 4. On the _Boards Manager options_, set filter to _Contributed_ and type _STM32 Cores_ in the search box. Then click on _Install_ .
+       If you run into any issues consult the[documentation](https://github.com/stm32duino/wiki/wiki/Getting-Started)..
 
+__PlatformIO__
+1. Install PlatformIO as detailed in the [installation options page](https://docs.platformio.org/en/latest/core/installation.html#installation-methods).
+2. Install STM32 platform support by running the following command from your terminal.
+    'pio platform install stm32'
+
+
+https://docs.platformio.org/en/latest/core/installation.html#installation-methods
