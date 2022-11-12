@@ -26,7 +26,6 @@ At the core is 72MHz ARM Cortex M3 with 64Kb of flash memory. The board ships wi
 ## wifi specifcations ##
 * ESP8285H16
 * 2 MB flash memory 
-* 802.11 b/g/n support
 * 802.11n support (2.4 GHz), up to 72.2 Mbps 
 * PCB Trace
 * Embedded TCP protocol
