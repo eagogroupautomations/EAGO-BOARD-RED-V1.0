@@ -74,7 +74,7 @@ __STM32Cube IDE__
 
      ## Building and Uploading Code to Eago Dev Board/Dev Kit ##
      
-     ### Using STM32CubeProgrammer (Arduino/PIO)###
+     ### Using STM32CubeProgrammer (Arduino/PIO) ###
 1. Download and install [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) for your OS of choice.
 2. Using Arduino IDE, under the Tools option in the menu bar, select Board > STM32 Board`s > Generic STM32F1 series then under Board part number select Generic F103C8 if you’re using STM32Duino.
 3. Under the same Tools menu, ensure that you have set the Upload method to STM32CubeProgrammer(Serial).
