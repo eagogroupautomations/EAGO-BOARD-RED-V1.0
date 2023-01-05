@@ -122,7 +122,4 @@ Set the appropriate port to upload.
 
 
 
-[Arduino IDE](https://www.arduino.cc/en/software)
-https://www.st.com/en/development-tools/stm32cubeide.html
-https://www.st.com/en/development-tools/stm32cubeprog.html
-https://docs.platformio.org/en/latest/core/installation.html#installation-methods
+
